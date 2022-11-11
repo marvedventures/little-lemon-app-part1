@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code]([https://github.com/marvedventures/Interactive-rating-component](https://github.com/marvedventures/little-lemon-app-part1))
+- Solution URL: [Code](https://github.com/marvedventures/little-lemon-app-part1)
 
 ## My process
 
