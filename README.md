@@ -1,11 +1,94 @@
-# Sample Snack app
+# React Native (Meta) Exercise
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a solution to the React Native Exercise by Meta.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Table of contents
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+## Overview
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### The challenge
+
+Users should be able to:  
+
+- Create a React Native App using Expo
+- Create a Header
+- Create a Welcome Screen
+- Create a Footer
+- Update Styles of Components to match Scenario
+- Extract All Styles to StyleSheet API 
+- Render Components to the App Component
+
+### Screenshot
+
+![image](https://user-images.githubusercontent.com/108392678/201300577-91c24049-18b8-408b-9287-ed9ab5258999.png)
+
+### Links
+
+- Solution URL: [Code](https://github.com/marvedventures/Interactive-rating-component)
+- Live Site URL: [Demo](https://interactive-rating-component-sandy.vercel.app/)
+
+## My process
+
+### Built with
+- React Native 
+- [StyleSheet](https://reactnative.dev/docs/stylesheet) - For styles
+
+### What I learned
+
+Creating React Native components, Views, Text and ScrollView Components.  Using StyleSheet API to style a React Native App.
+
+Here is a code snippet: 
+
+
+```jsx
+export default function WelcomeScreen() {
+  return (
+    <View style={welcomeStyle.container}>
+      <Text style={welcomeStyle.headerText}>Welcome to Little Lemon</Text>
+      <Text style={welcomeStyle.welcomeText}>
+        Little Lemon is a charming neighborhood bistro that serves simple food
+        and classic cocktails in a lively but casual environment. We would love
+        to hear more about your experience with us!
+      </Text>
+    </View>
+  );
+}
+const welcomeStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  headerText: {
+    color: '#EDEFEE',
+    textAlign: 'center',
+    fontSize: 30,
+    padding: 40,
+  },
+  welcomeText: {
+    fontSize: 24,
+    padding: 20,
+    marginVertical: 8,
+    color: '#EDEFEE',
+    textAlign: 'center',
+  },
+});
+```
+
+### Useful resources
+
+- [React Native Docs](https://reactnative.dev/docs/stylesheet) - This helped me for all the neccessary React Native styles. I really liked their documentation and will use it going forward.
+
+
+## Author
+
+- Website - [Marvin Morales Pacis](https://marvin-morales-pacis.vercel.app/)
+- LinkedIn - [@marvedventures](https://www.linkedin.com/in/marvedventures/)
+- Twitter - [@marvedventures](https://www.twitter.com/marvedventures)
