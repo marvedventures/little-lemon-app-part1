@@ -19,6 +19,7 @@ This is a solution to the React Native Exercise by Meta.
 
 Users should be able to:  
 
+- Creating a React App Using Expo
 - Create a Header
 - Create a Welcome Screen
 - Create a Footer
@@ -28,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![127 0 0 1_56380_(iPhone 11 Pro Max')](https://user-images.githubusercontent.com/108392678/200736599-6444a50e-7f88-4e02-8eb7-051efcfc6757.png)
+![image](https://user-images.githubusercontent.com/108392678/201300577-91c24049-18b8-408b-9287-ed9ab5258999.png)
 
 ### Links
 
