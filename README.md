@@ -20,9 +20,10 @@ This is a solution to the React Native Exercise by Meta.
 Users should be able to:  
 
 - Create a React Native App using Expo
-- Create a Header
-- Create a Welcome Screen
-- Create a Footer
+- Use View, Text, and ScrollView Components
+- Create a Header Component
+- Create a Welcome Screen Component
+- Create a Footer Component
 - Update Styles of Components to match Scenario
 - Extract All Styles to StyleSheet API 
 - Render Components to the App Component
