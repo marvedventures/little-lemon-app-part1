@@ -33,13 +33,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/marvedventures/Interactive-rating-component)
-- Live Site URL: [Demo](https://interactive-rating-component-sandy.vercel.app/)
+- Solution URL: [Code]([https://github.com/marvedventures/Interactive-rating-component](https://github.com/marvedventures/little-lemon-app-part1))
 
 ## My process
 
 ### Built with
-- React Native 
+- [React Native](https://reactnative.dev/docs/environment-setup) - React Native using Expo Go
 - [StyleSheet](https://reactnative.dev/docs/stylesheet) - For styles
 
 ### What I learned
